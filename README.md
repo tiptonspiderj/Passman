@@ -30,7 +30,7 @@ jpackage -t exe --name Passman --description "Password manager Author: Jeremy Ti
 
 If you just want to run the program from the executable jar in the "input" folder you can use the command:
 
-java -jar --module-path "YOUR PATH TO\javafxsdk17.0.0.1\lib" --add-modules=ALL-MODULE-PATH
+java -jar --module-path "YOUR PATH TO\javafxsdk17.0.0.1\lib" --add-modules=ALL-MODULE-PATH Passman.jar
 
 ## Help
 
