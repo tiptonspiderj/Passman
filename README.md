@@ -9,6 +9,8 @@ save the information on your computer.  There are still a few logic things I nee
 
 ## Getting Started
 
+![splash screen](https://github.com/tiptonspiderj/Passman/blob/main/src/images/Logo.JPG)
+
 ### Dependencies
 
 The dependencies are JavaFX v17 and the external jars included in the "lib" folder
