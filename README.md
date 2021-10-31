@@ -49,7 +49,7 @@ Jeremy Tipton
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International Public License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
