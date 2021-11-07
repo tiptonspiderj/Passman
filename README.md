@@ -24,7 +24,7 @@ You can make an executable installer from my project using java's jpackage tool 
  jlink --module-path "Your path to JavaFX-Mods-jars" --add-modules=ALL-MODULE-PATH --output runtime
  
 jpackage -t exe --name Passman --description "Password manager Author: Jeremy Tipton" --app-version 1.0.0 --input input 
---dest output --main-jar Passman.jar --win-shortcut --runtime-image runtime --icon src\images\Passman.ico
+--dest output --main-jar Passman.jar --win-shortcut --runtime-image runtime --icon src\images\Passman1.ico
 
 ### Executing program
 
