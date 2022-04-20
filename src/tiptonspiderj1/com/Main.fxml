@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="mainAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="590.0" prefWidth="833.0" style="-fx-background-color: #392e07;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tiptonspiderj1.com.FXMLController">
+   <children>
+      <ImageView fitHeight="590.0" fitWidth="833.0" layoutX="-1.0" opacity="0.08" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../images/Logo.JPG" />
+         </image>
+      </ImageView>
+      <JFXComboBox fx:id="selector" focusColor="#89732a" layoutX="601.0" layoutY="41.0" onAction="#displayProfile" prefHeight="26.0" prefWidth="94.0" promptText="Select profile" style="-fx-background-color: #bea03a; -fx-prompt-text-fill: black;" unFocusColor="#bea03a" />
+      <TextField fx:id="username" layoutX="262.0" layoutY="79.0" promptText="Username" style="-fx-background-color: #bea03a; -fx-prompt-text-fill: black;" />
+      <TextField fx:id="password" layoutX="263.0" layoutY="115.0" promptText="Password" style="-fx-background-color: #bea03a; -fx-prompt-text-fill: black;" />
+      <TextField fx:id="website" layoutX="263.0" layoutY="151.0" promptText="Website URL" style="-fx-background-color: #bea03a; -fx-prompt-text-fill: black;" />
+      <TextField fx:id="alias" layoutX="342.0" layoutY="42.0" promptText="Alias" style="-fx-background-color: #bea03a; -fx-prompt-text-fill: black;" />
+      <TextField fx:id="pin" layoutX="263.0" layoutY="187.0" promptText="Pin" style="-fx-background-color: #bea03a; -fx-prompt-text-fill: black;" />
+      <HBox layoutX="14.0" layoutY="476.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="btnLoadProfiles" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loadProfile" prefHeight="100.0" prefWidth="104.0" styleClass="mylarge-button" stylesheets="@application.css" text="Load Profiles">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button fx:id="btnSaveProfiles" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#saveProfile" prefHeight="100.0" prefWidth="104.0" styleClass="mylarge-button" stylesheets="@application.css" text="Save Profiles">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button fx:id="btnAdd" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addNewProfile" prefHeight="98.0" prefWidth="104.0" styleClass="my-button" stylesheets="@application.css" text="Add">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button fx:id="btnDelete" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#deleteProfile" prefHeight="98.0" prefWidth="104.0" styleClass="my-button" stylesheets="@application.css" text="Delete">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button fx:id="btnUpdate" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#updateProfile" prefHeight="98.0" prefWidth="104.0" styleClass="my-button" stylesheets="@application.css" text="Update">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button fx:id="btnEncrypt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#encryptProfiles" prefHeight="98.0" prefWidth="104.0" styleClass="my-button" stylesheets="@application.css" text="Encrypt">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button fx:id="btnDecrypt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#decryptProfiles" prefHeight="98.0" prefWidth="104.0" styleClass="my-button" stylesheets="@application.css" text="Decrypt">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button fx:id="btnExit" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exitProgram" prefHeight="98.0" prefWidth="104.0" styleClass="my-button" stylesheets="@application.css" text="Exit">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="btnCopyUsername" layoutX="421.0" layoutY="79.0" mnemonicParsing="false" onAction="#copyUsername" prefWidth="150.0" styleClass="my-button" stylesheets="@application.css" text="Copy to Clipboard">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnCopyPassword" layoutX="421.0" layoutY="115.0" mnemonicParsing="false" onAction="#copyPassword" prefWidth="150.0" styleClass="my-button" stylesheets="@application.css" text="Copy to Clipboard">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnCopyWebAddress" layoutX="421.0" layoutY="151.0" mnemonicParsing="false" onAction="#copyWebsite" prefWidth="150.0" styleClass="my-button" stylesheets="@application.css" text="Copy to Clipboard">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnCopyPin" layoutX="421.0" layoutY="187.0" mnemonicParsing="false" onAction="#copyPin" prefWidth="150.0" styleClass="my-button" stylesheets="@application.css" text="Copy to Clipboard">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
