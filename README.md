@@ -32,8 +32,6 @@ If you just want to run the program from the executable jar in the "input" folde
 
 java -jar --module-path "YOUR PATH TO\javafxsdk17.0.0.1\lib" --add-modules=ALL-MODULE-PATH Passman.jar
 
-## Help
-
 ## Authors
 
 Contributors names and contact info
@@ -43,13 +41,20 @@ Jeremy Tipton
 
 ## Version History
 
-
 * 1.0.0
     * Initial Release
 
-## License
+## Feedback
 
-This project is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International Public License - see the LICENSE.txt file for details
+If you have any feedback, please reach out to me at tiptonspiderj1@aol.com
+
+## Badges
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
 ## Acknowledgments
 
