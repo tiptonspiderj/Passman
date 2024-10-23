@@ -4,8 +4,8 @@ This is a password manager for your personal use.
 ## Description
 
 This project was made using the Eclipse IDE along with the e(fx)clipse plugin. I also used Scenebuilder to create the *.fxml files in the project.
-The application uses AES encryption to secure your information.  I left the choice upto the user when to encryp/decrypt info and where to load and
-save the information on your computer.  There are still a few logic things I need to fix to prevent user error.  Those will be finished shortly.
+The application uses AES encryption to secure your information.  I left the choice up to the user when to encrypt/decrypt info and where to load and
+save the information on your computer.  There are still a few logical things I need to fix to prevent user error.  Those will be finished shortly.
 
 ## Getting Started
 
@@ -28,13 +28,13 @@ jpackage -t exe --name Passman --description "Password manager Author: Jeremy Ti
 ```
 ### Executing program
 
-If you just want to run the program from the executable jar in the "input" folder you can use the command:
+If you just want to run the program from the executable jar in the "input" folder, you can use the command:
 ```
 java -jar --module-path "YOUR PATH TO\javafxsdk17.0.0.1\lib" --add-modules=ALL-MODULE-PATH Passman.jar
 ```
 ## Authors
 
-Contributors names and contact info
+Contributor’s names and contact info
 
 Jeremy Tipton  
 [@tiptonspiderj1](https://tiptonspiderj1.com)
