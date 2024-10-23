@@ -20,18 +20,18 @@ The runnable jar file is located in the "input" folder
 ### Installing for Windows
 
 You can make an executable installer from my project using java's jpackage tool and the following commands:
-
+```
  jlink --module-path "Your path to JavaFX-Mods-jars" --add-modules=ALL-MODULE-PATH --output runtime
  
 jpackage -t exe --name Passman --description "Password manager Author: Jeremy Tipton" --app-version 1.0.0 --input input 
 --dest output --main-jar Passman.jar --win-shortcut --runtime-image runtime --icon src\images\Passman1.ico
-
+```
 ### Executing program
 
 If you just want to run the program from the executable jar in the "input" folder you can use the command:
-
+```
 java -jar --module-path "YOUR PATH TO\javafxsdk17.0.0.1\lib" --add-modules=ALL-MODULE-PATH Passman.jar
-
+```
 ## Authors
 
 Contributors names and contact info
