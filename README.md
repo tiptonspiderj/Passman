@@ -3,9 +3,13 @@ This is a password manager for your personal use.
 
 ## Description
 
-This project was made using the Eclipse IDE along with the e(fx)clipse plugin. I also used Scenebuilder to create the *.fxml files in the project.
-The application uses AES encryption to secure your information.  I left the choice up to the user when to encrypt/decrypt info and where to load and
-save the information on your computer.  There are still a few logical things I need to fix to prevent user error.  Those will be finished shortly.
+This application is built using Scene Builder,
+Java, and Intellij. It was built as a part of my own interests in having a safe program
+where I was the author.  I don't really trust these large companies to store my personal
+information.  Thus, I made a solution for myself.  Using this app in combination with my password 
+generator app will keep your online profile secure.  The application uses AES encryption to 
+secure your information.  I left the choice up to the user when to encrypt/decrypt info and 
+where to load and save the information on your computer.
 
 ## Getting Started
 
