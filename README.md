@@ -13,7 +13,7 @@ decrypt info and where to load and save the information on your computer.
 
 ## Getting Started
 
-![splash screen](https://github.com/tiptonspiderj/Passman/blob/main/src/images/Logo.JPG)
+![splash screen](https://github.com/tiptonspiderj/Passman/blob/main/src/tiptonspiderj1/com/Logo.JPG)
 
 ### Dependencies
 
