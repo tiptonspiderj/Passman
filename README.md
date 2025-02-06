@@ -7,7 +7,7 @@ This application is built using Scene Builder,
 Java, and Intellij. It was built as a part of my own interests in having a safe program
 where I was the author.  I don't really trust large companies to store my personal
 information.  Thus, I made a solution for myself.  This app combines a password manager with a
-password generatory.  This app will keep your online profile secure.  The application uses 
+password generator.  This app will keep your online profile secure.  The application uses 
 AES encryption to secure your information.  I left the choice up to the user when to encrypt / 
 decrypt info and where to load and save the information on your computer.
 
