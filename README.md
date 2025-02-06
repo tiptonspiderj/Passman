@@ -1,5 +1,5 @@
 # Passman
-This is a password manager for your personal use.
+This is a password manager & password generator for your personal use.
 
 ## Description
 
