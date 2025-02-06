@@ -6,10 +6,10 @@ This is a password manager for your personal use.
 This application is built using Scene Builder,
 Java, and Intellij. It was built as a part of my own interests in having a safe program
 where I was the author.  I don't really trust large companies to store my personal
-information.  Thus, I made a solution for myself.  Using this app in combination with my password 
-generator app will keep your online profile secure.  The application uses AES encryption to 
-secure your information.  I left the choice up to the user when to encrypt/decrypt info and 
-where to load and save the information on your computer.
+information.  Thus, I made a solution for myself.  This app combines a password manager with a
+password generatory.  This app will keep your online profile secure.  The application uses 
+AES encryption to secure your information.  I left the choice up to the user when to encrypt / 
+decrypt info and where to load and save the information on your computer.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ where to load and save the information on your computer.
 
 ### Dependencies
 
-The dependencies are JavaFX v17 and the external jars included in the "lib" folder
+The dependencies are JavaFX v21 and the external jars included in the "lib" folder
 
 The runnable jar file is located in the "input" folder
 
@@ -34,7 +34,7 @@ jpackage -t exe --name Passman --description "Password manager Author: Jeremy Ti
 
 If you just want to run the program from the executable jar in the "input" folder, you can use the command:
 ```
-java -jar --module-path "YOUR PATH TO\javafxsdk17.0.0.1\lib" --add-modules=ALL-MODULE-PATH Passman.jar
+java -jar --module-path "YOUR PATH TO\javafxsdk21.0.6\lib" --add-modules=ALL-MODULE-PATH Passman.jar
 ```
 ## Authors
 
