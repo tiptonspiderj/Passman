@@ -1,0 +1,90 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.my-button{
+	-fx-background-color:  #bea03a;
+	-fx-border-radius: 0;     
+    -fx-background-radius: 0;
+    
+}
+
+.my-button:hover {
+	-fx-background-color: grey; 
+	-fx-border-radius: 5;     
+    -fx-background-radius: 5;
+}
+
+.my-button:pressed {
+	-fx-scale-x:0.95;
+	-fx-scale-y:0.95;
+}
+
+.mylarge-button{
+	-fx-background-color:  #424228;
+	-fx-border-radius: 0;     
+    -fx-background-radius: 0;  
+    -fx-text-fill: #bea03a;  
+}
+
+.mylarge-button:focus {
+	-fx-text-fill: #bea03a;
+}
+
+.mylarge-button:hover {
+	-fx-background-color: #828282; 
+	-fx-border-radius: 5;     
+    -fx-background-radius: 5;
+    -fx-text-fill: black;
+}
+
+.mylarge-button:pressed {
+	-fx-scale-x:0.97;
+	-fx-scale-y:0.97;
+}
+
+.jfx-slider {
+    -jfx-default-thumb: #424228;
+    -jfx-default-track: #bea03a;
+    -fx-base: #bea03a;
+}
+
+.jfx-slider .slider-value {
+    -fx-stroke:  #bea03a;
+    -fx-font-size: 10;
+}
+
+.jfx-slider .track {
+	-fx-background-color: #bea03a;
+	
+}
+
+.jfx-slider .axis .tick-label {
+    -fx-text-fill: #bea03a; 
+}
+
+.custom-alert {
+    -fx-font-size: 16px;
+    -fx-background-color: #392D06;
+    -fx-border-color: #bea03a;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Tahoma";
+}
+
+.custom-alert .header-panel {
+    -fx-background-color: #392D06;
+    -fx-text-fill: #392D06;
+}
+
+.custom-alert .content {
+    -fx-text-fill: #bea03a;
+    -fx-font-size: 16px;   
+}
+
+.custom-alert .button-bar {
+    -fx-background-color: #392D06;
+}
+
+.custom-alert .button {
+    -fx-background-color: #392D06;
+    -fx-text-fill: #392D06;
+}
